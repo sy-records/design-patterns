@@ -13,35 +13,33 @@ namespace Luffy\DesignPatterns\Singleton;
  */
 class Singleton
 {
-	/**
-	 * @var
-	 */
-	private static $instance;
+    /**
+     * @var
+     */
+    private static $instance;
 
-	public static function getInstance()
-	{
-		if (!self::$instance instanceof self) {
-			static::$instance = new self();
-		}
+    public static function getInstance()
+    {
+        if (!self::$instance instanceof self) {
+            static::$instance = new self();
+        }
 
-		return static::$instance;
-	}
+        return static::$instance;
+    }
 
-	/**
-	 * MySQLDB constructor.
-	 */
-	private function __construct()
-	{
+    /**
+     * MySQLDB constructor.
+     */
+    private function __construct()
+    {
+    }
 
-	}
+    private function __clone()
+    {
+    }
 
-	private function __clone()
-	{
-
-	}
-
-	private function __wakeup()
-	{
-		// TODO: Implement __wakeup() method.
-	}
+    private function __wakeup()
+    {
+        // TODO: Implement __wakeup() method.
+    }
 }
