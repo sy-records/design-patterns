@@ -16,4 +16,4 @@
 
 * [单例模式](Singleton)
 * [工厂模式](Factory)
-    * [简单工厂](SimpleFactory)
+    * [简单工厂](Factory/SimpleFactory)
