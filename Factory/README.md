@@ -2,6 +2,6 @@
 
 ## 目录
 
-* [简单工厂](Factory/SimpleFactory)
+* [简单工厂](SimpleFactory)
 * 工厂方法
 * 抽象工厂
