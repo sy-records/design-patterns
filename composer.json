@@ -1,0 +1,20 @@
+{
+  "name": "sy-records/design-patterns",
+  "description": "php design patterns",
+  "keywords": ["swoole","php","design-patterns"],
+  "type": "project",
+  "homepage": "https://github.com/sy-records/design-patterns",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luffy",
+      "email": "52o@qq52o.cn",
+      "homepage": "https://qq52o.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Luffy\\DesignPatterns\\": ""
+    }
+  }
+}
