@@ -6,7 +6,7 @@
 <p align="center">
   <b>Swoole微课程-PHP设计模式相关代码</b>
   <br><br>
-  <a target="_blank" href="https://www.swoole-cloud.com">
+  <a target="_blank" href="https://course.swoole-cloud.com">
     <img src="images/swoolee.png">
   </a>
   <br><br>
@@ -17,3 +17,4 @@
 * [单例模式](Singleton)
 * [工厂模式](Factory)
     * [简单工厂](Factory/SimpleFactory)
+    * [工厂方法](Factory/FactoryMethod)
