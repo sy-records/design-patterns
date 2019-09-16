@@ -5,7 +5,7 @@
  * Email: lufei@swoole.com
  */
 
-namespace Luffy\DesignPatterns\Factory\SimpleFactory;
+namespace Luffy\DesignPatterns\Factory\FactoryMethod;
 
 use Luffy\DesignPatterns\Factory\SimpleFactory\AliPay;
 

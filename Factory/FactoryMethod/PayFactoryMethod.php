@@ -5,7 +5,7 @@
  * Email: lufei@swoole.com
  */
 
-namespace Luffy\DesignPatterns\Factory\SimpleFactory;
+namespace Luffy\DesignPatterns\Factory\FactoryMethod;
 
 /**
  * 创建支付方法类 此处是将对象的创建抽象成一个接口

@@ -7,8 +7,8 @@
 
 include __DIR__ . '/../../vendor/autoload.php';
 
-use Luffy\DesignPatterns\Factory\SimpleFactory\FactoryAli;
-use Luffy\DesignPatterns\Factory\SimpleFactory\FactoryWeChat;
+use Luffy\DesignPatterns\Factory\FactoryMethod\FactoryAli;
+use Luffy\DesignPatterns\Factory\FactoryMethod\FactoryWeChat;
 
 /**
  * 具体生产对象并执行对象方法测试
