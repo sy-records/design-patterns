@@ -7,7 +7,7 @@
   <b>Swoole微课程-PHP设计模式相关代码</b>
   <br><br>
   <a target="_blank" href="https://course.swoole-cloud.com">
-    <img src="images/swoolee.png">
+    <img src="swoolee-logo.png">
   </a>
   <br><br>
 </p>
@@ -18,3 +18,4 @@
 * [工厂模式](Factory)
     * [简单工厂](Factory/SimpleFactory)
     * [工厂方法](Factory/FactoryMethod)
+    * [抽象工厂](Factory/AbstractFactory)

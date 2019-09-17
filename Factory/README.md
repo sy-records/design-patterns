@@ -4,4 +4,4 @@
 
 * [简单工厂](SimpleFactory)
 * [工厂方法](FactoryMethod)
-* 抽象工厂
+* [抽象工厂](AbstractFactory)
