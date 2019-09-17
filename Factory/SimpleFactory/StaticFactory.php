@@ -8,12 +8,12 @@
 namespace Luffy\DesignPatterns\Factory\SimpleFactory;
 
 /**
- * Class SimpleFactory
+ * Class StaticFactory
  * @package Luffy\DesignPatterns\Factory\SimpleFactory
  */
-class SimpleFactory
+class StaticFactory
 {
-    public function pay($operate)
+    public static function pay($operate)
     {
         switch ($operate) {
             case 'WeChatPay':

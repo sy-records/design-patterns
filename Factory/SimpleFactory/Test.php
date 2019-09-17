@@ -9,8 +9,11 @@ include __DIR__ . '/../../vendor/autoload.php';
 
 // 调用
 use Luffy\DesignPatterns\Factory\SimpleFactory\SimpleFactory;
+use Luffy\DesignPatterns\Factory\SimpleFactory\StaticFactory;
 
-$pay1 = SimpleFactory::pay("WeChatPay");
+$pay1 = StaticFactory::pay("WeChatPay");
 $pay1->pay();
-$pay2 = SimpleFactory::pay("AliPay");
+
+$factory = new SimpleFactory();
+$pay2 = $factory->pay("AliPay");
 $pay2->pay();
