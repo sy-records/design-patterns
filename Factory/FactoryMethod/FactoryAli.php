@@ -7,11 +7,11 @@
 
 namespace Luffy\DesignPatterns\Factory\FactoryMethod;
 
-use Luffy\DesignPatterns\Factory\SimpleFactory\AliPay;
+use Luffy\DesignPatterns\Factory\FactoryMethod\AliPay;
 
-class FactoryAli implements PayFactoryMethod
+class FactoryAli implements CreatePayFactoryMethod
 {
-	function create()
+	function pay()
 	{
 		// TODO: Implement create() method.
 		return new AliPay();

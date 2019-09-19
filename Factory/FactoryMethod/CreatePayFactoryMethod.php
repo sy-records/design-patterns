@@ -8,11 +8,10 @@
 namespace Luffy\DesignPatterns\Factory\FactoryMethod;
 
 /**
- * 创建支付方法类 此处是将对象的创建抽象成一个接口
  * Interface PayFactoryMethod
- * @package Luffy\DesignPatterns\Factory\SimpleFactory
+ * @package Luffy\DesignPatterns\Factory\FactoryMethod
  */
 interface PayFactoryMethod
 {
-	public function create();
+	public function pay();
 }

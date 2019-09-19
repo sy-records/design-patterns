@@ -1,31 +1,19 @@
 <?php
 /**
- * User: lufei
- * Date: 2019/9/15
- * Email: lufei@swoole.com
+ * 不用设计模式时
+ *
+ * @author     Luffy (lufei@swoole.com)
+ * @date       2019/9/19
+ * @copyright  Swoole, Inc.
+ * @package    sy-records/design-patterns
  */
 
-namespace Luffy\DesignPatterns\Factory\SimpleFactory;
-
-/**
- * Class Pay
- * @package Luffy\DesignPatterns\Factory\SimpleFactory
- */
-class Pay
+class WeChatPay
 {
-    /**
-     * 微信支付
-     */
-    public function weChatPay()
-    {
-        return new WeChatPay();
-    }
+	// TODO
+}
 
-    /**
-     * 支付宝支付
-     */
-    public function aliPay()
-    {
-        return new AliPay();
-    }
+class AliPay
+{
+	// TODO
 }

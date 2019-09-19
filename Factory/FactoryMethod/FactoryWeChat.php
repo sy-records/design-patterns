@@ -9,9 +9,9 @@ namespace Luffy\DesignPatterns\Factory\FactoryMethod;
 
 use Luffy\DesignPatterns\Factory\SimpleFactory\WeChatPay;
 
-class FactoryWeChat implements PayFactoryMethod
+class FactoryWeChat implements CreatePayFactoryMethod
 {
-	function create()
+	function pay()
 	{
 		// TODO: Implement create() method.
 		return new WeChatPay();
