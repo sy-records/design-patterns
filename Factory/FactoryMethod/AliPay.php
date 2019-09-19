@@ -1,17 +1,20 @@
 <?php
 /**
  * User: lufei
- * Date: 2019/9/16
+ * Date: 2019/9/15
  * Email: lufei@swoole.com
  */
 
 namespace Luffy\DesignPatterns\Factory\FactoryMethod;
 
 /**
- * Interface CreatePayFactoryMethod
+ * Class AliPay
  * @package Luffy\DesignPatterns\Factory\FactoryMethod
  */
-interface CreatePayFactoryMethod
+class AliPay
 {
-	public function create();
+    public function pay()
+    {
+        echo "我是AliPay\n";
+    }
 }

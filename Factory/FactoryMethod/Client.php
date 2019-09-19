@@ -21,7 +21,6 @@ class Client
 		$ali = $factory->create();
 		$ali->pay();
 
-
 		$factory = new FactoryWeChat();
 		$wechat = $factory->create();
 		$wechat->pay();
