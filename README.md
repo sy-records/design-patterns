@@ -19,6 +19,7 @@
     * [x] [简单工厂/静态工厂](Factory/SimpleFactory)
     * [x] [工厂方法](Factory/FactoryMethod)
     * [x] [抽象工厂](Factory/AbstractFactory)
+    * [x] [优化抽象工厂](Factory/OptimizeAbstractFactory)
 * [ ] 原型模式
 * [ ] 类适配器模式
 * [ ] 对象适配器模式
