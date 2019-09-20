@@ -5,8 +5,6 @@
  * Email: lufei@swoole.com
  */
 
-namespace Luffy\DesignPatterns\Singleton;
-
 class Test
 {
     public static $instance;
