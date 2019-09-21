@@ -20,7 +20,7 @@
     * [x] [工厂方法](Factory/FactoryMethod)
     * [x] [抽象工厂](Factory/AbstractFactory)
     * [x] [优化抽象工厂](Factory/OptimizeAbstractFactory)
-* [ ] 注册树模式
+* [x] [注册树模式](RegistryTree)
 * [ ] 原型模式
 * [ ] 类适配器模式
 * [ ] 对象适配器模式
