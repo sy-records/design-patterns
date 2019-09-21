@@ -53,9 +53,9 @@ class Singleton
         return static::$instance;
     }
 
-    /**
-     * MySQLDB constructor.
-     */
+	/**
+	 * Singleton constructor.
+	 */
     private function __construct()
     {
     }

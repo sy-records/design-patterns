@@ -35,9 +35,9 @@ class SingletonDemo
         return static::$instance;
     }
 
-    /**
-     * MySQLDB constructor.
-     */
+	/**
+	 * SingletonDemo constructor.
+	 */
     private function __construct()
     {
         $this->content = __CLASS__ . "\n";
