@@ -1,12 +1,12 @@
 <p align="center">
-<a target="_blank" href="https://qq52o.me"><img src="https://img.shields.io/badge/contact-@Luffy-orange.svg?style=flat"></a>
+<a href="https://qq52o.me"><img src="https://img.shields.io/badge/contact-@Luffy-orange.svg?style=flat"></a>
 <img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat">
 </p>
 
 <p align="center">
   <b>Swoole微课程-PHP设计模式相关代码</b>
   <br><br>
-  <a target="_blank" href="https://course.swoole-cloud.com">
+  <a href="https://course.swoole-cloud.com">
     <img src="swoolee-logo.png">
   </a>
   <br><br>
