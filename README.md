@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://qq52o.me"><img src="https://img.shields.io/badge/contact-@Luffy-orange.svg?style=flat"></a>
+<a target="_blank" href="https://qq52o.me"><img src="https://img.shields.io/badge/contact-@Luffy-orange.svg?style=flat"></a>
 <img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat">
 </p>
 
