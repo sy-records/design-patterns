@@ -11,7 +11,7 @@ namespace Luffy\DesignPatterns\Factory\FactoryMethod;
  * Class AliPay
  * @package Luffy\DesignPatterns\Factory\FactoryMethod
  */
-class AliPay
+class AliPay implements createPay
 {
     public function pay()
     {

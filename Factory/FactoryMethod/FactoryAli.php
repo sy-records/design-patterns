@@ -9,9 +9,9 @@ namespace Luffy\DesignPatterns\Factory\FactoryMethod;
 
 class FactoryAli implements CreatePayFactoryMethod
 {
-	function create()
-	{
-		// TODO: Implement create() method.
-		return new AliPay();
-	}
+    function create()
+    {
+        // TODO: Implement create() method.
+        return new AliPay();
+    }
 }

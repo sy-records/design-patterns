@@ -10,10 +10,23 @@
 
 class WeChatPay
 {
-	// TODO
+    public function pay()
+    {
+
+    }
 }
 
 class AliPay
 {
-	// TODO
+    public function pay()
+    {
+
+    }
 }
+
+$we = new WeChatPay();
+$we->pay();
+
+$ali = new AliPay();
+$ali->pay();
+
