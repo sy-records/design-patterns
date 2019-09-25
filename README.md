@@ -12,6 +12,14 @@
   <br><br>
 </p>
 
+## 安装下载
+
+如果直接拉取`Github`的速度缓慢，可切换国内镜像源`Composer`进行下载
+
+```shell
+composer create-project sy-records/design-patterns:dev-master -vvv
+```
+
 ## 目录
 
 * [x] [单例模式](Singleton)
@@ -21,6 +29,7 @@
     * [x] [抽象工厂](Factory/AbstractFactory)
     * [x] [优化抽象工厂](Factory/OptimizeAbstractFactory)
 * [x] [注册树模式](RegistryTree)
+* [x] [建造者模式](Builder)
 * [ ] 原型模式
 * [ ] 类适配器模式
 * [ ] 对象适配器模式
