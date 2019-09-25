@@ -16,5 +16,9 @@
     "psr-4": {
       "Luffy\\DesignPatterns\\": ""
     }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
   }
 }
