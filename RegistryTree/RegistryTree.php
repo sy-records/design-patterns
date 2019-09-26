@@ -16,24 +16,24 @@ namespace Luffy\DesignPatterns\RegistryTree;
  */
 class RegistryTree
 {
-	public static $objects;
+    private static $objects;
 
-	public static function set($alias, $object)
-	{
-		self::$objects[$alias] = $object;
-	}
+    public static function set($alias, $object)
+    {
+        self::$objects[$alias] = $object;
+    }
 
-	public static function get($alias)
-	{
-		if (isset(self::$objects[$alias])) {
-			return self::$objects[$alias];
-		} else {
-			echo "该对象实例不存在。\n";
-		}
-	}
+    public static function get($alias)
+    {
+        if (isset(self::$objects[$alias])) {
+            return self::$objects[$alias];
+        } else {
+            echo "该对象实例不存在。\n";
+        }
+    }
 
-	public static function _unset($alias)
-	{
-		unset(self::$objects[$alias]);
-	}
+    public static function _unset($alias)
+    {
+        unset(self::$objects[$alias]);
+    }
 }

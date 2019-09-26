@@ -17,9 +17,8 @@ use Luffy\DesignPatterns\RegistryTree\RegistryTree;
  * 单例
  * Class SingletonDemo
  */
-class SingletonDemo
+class SingletonDemo extends RegistryTree
 {
-
     /**
      * @var
      */
@@ -35,9 +34,9 @@ class SingletonDemo
         return static::$instance;
     }
 
-	/**
-	 * SingletonDemo constructor.
-	 */
+    /**
+     * SingletonDemo constructor.
+     */
     private function __construct()
     {
         $this->content = __CLASS__ . "\n";
