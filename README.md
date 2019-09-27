@@ -1,15 +1,16 @@
 <p align="center">
-<a href="https://qq52o.me"><img src="https://img.shields.io/badge/contact-@Luffy-orange.svg?style=flat"></a>
-<img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat">
-</p>
-
-<p align="center">
-  <b>Swoole微课程-PHP设计模式相关代码</b>
-  <br><br>
   <a href="https://course.swoole-cloud.com">
     <img src="swoolee-logo.png">
   </a>
-  <br><br>
+  <br>
+  <b>Swoole微课程-PHP设计模式</b>
+</p>
+<p align="center">
+  <a href="https://qq52o.me"><img src="https://img.shields.io/badge/contact-@Luffy-orange.svg?style=flat"></a>
+  <img src="https://poser.pugx.org/sy-records/design-patterns/license">
+  <a href="https://packagist.org/packages/sy-records/design-patterns"><img src="https://poser.pugx.org/sy-records/design-patterns/downloads"></a>
+  <a href="https://github.com/sy-records/design-patterns/graphs/contributors"><img src="https://img.shields.io/github/contributors/sy-records/design-patterns"></a>
+  
 </p>
 
 ## 安装下载
