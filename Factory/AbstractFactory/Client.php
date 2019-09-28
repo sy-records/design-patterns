@@ -18,7 +18,6 @@ class Client
         $man = $factory->createHuMan();
         $man->say();
 
-		$factory = new ManFactory();
 		$monkey = $factory->createMonkey();
 		$monkey->say();
 
@@ -28,7 +27,6 @@ class Client
 		$woman = $factory->createHuMan();
 		$woman->say();
 
-		$factory = new WoManFactory();
 		$woman_monkey = $factory->createMonkey();
 		$woman_monkey->say();
 
