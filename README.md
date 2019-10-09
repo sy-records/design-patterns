@@ -51,8 +51,8 @@ composer create-project sy-records/design-patterns:dev-master -vvv
 
 ## 扩展
 
-* [ ] POP
-* [ ] OOP
+* [x] POP
+* [x] OOP
 * [ ] AOP
 * [ ] CSP
 * [ ] SOA
