@@ -48,3 +48,11 @@ composer create-project sy-records/design-patterns:dev-master -vvv
 * [ ] 迭代器模式
 * [ ] 责任链模式
 * [ ] 观察者模式
+
+## 扩展
+
+* [x] POP
+* [x] OOP
+* [ ] AOP
+* [ ] CSP
+* [ ] SOA
