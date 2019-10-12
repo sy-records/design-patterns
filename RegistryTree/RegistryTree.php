@@ -25,11 +25,10 @@ class RegistryTree
 
     public static function get($alias)
     {
-        if (isset(self::$objects[$alias])) {
-            return self::$objects[$alias];
-        } else {
-            echo "该对象实例不存在。\n";
+        if (!isset(self::$objects[$alias])) {
+            return false;
         }
+        return self::$objects[$alias];
     }
 
     public static function _unset($alias)

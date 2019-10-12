@@ -17,7 +17,7 @@ use Luffy\DesignPatterns\RegistryTree\RegistryTree;
  * 单例
  * Class SingletonDemo
  */
-class SingletonDemo extends RegistryTree
+class SingletonDemo
 {
     /**
      * @var
@@ -39,7 +39,7 @@ class SingletonDemo extends RegistryTree
      */
     private function __construct()
     {
-        $this->content = __CLASS__ . "\n";
+        $this->content = rand(1, 9999);
     }
 
     private function __clone()
@@ -73,5 +73,5 @@ class Factory
 RegistryTree::set("singleton", Factory::create());
 
 $obj = RegistryTree::get("singleton");
+var_dump($obj);
 echo $obj->test();
-print_r($obj);
