@@ -13,31 +13,42 @@ namespace Luffy\DesignPatterns\Builder;
 
 class Car
 {
-    protected $wheel;
-    protected $engine;
-    protected $others;
+    /**
+     * @var array
+     */
+    protected $_parts = [];
 
-    public function setWheel()
+    public function setPartA()
     {
-        $this->wheel = "轮子";
+        $this->_parts[] = "发动机、";
         return $this;
     }
 
-    public function setEngine()
+    public function setPartB()
     {
-        $this->engine = "发动机";
+        $this->_parts[] = "底盘、";
+        return $this;
+    }
+
+    public function setPartC()
+    {
+        $this->_parts[] = "变速箱、";
         return $this;
     }
 
     public function setOthers()
     {
-        $this->others = "其他零件";
+        $this->_parts[] ="其他零件";
         return $this;
     }
 
     public function getCar()
     {
-        echo "这辆车由：".$this->wheel.','.$this->engine.',和'.$this->others."组成\n";
-        return $this;
+        $str = "这辆车由：";
+        foreach ($this->_parts as $item) {
+        	$str .= $item;
+		}
+        $str .= "组成\n";
+        echo $str;
     }
 }
