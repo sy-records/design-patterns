@@ -33,6 +33,10 @@ class RegistryTree
 
     public static function _unset($alias)
     {
-        unset(self::$objects[$alias]);
+		if(isset(self::$objects[$alias])){
+			unset(self::$objects[$alias]);
+			return true;
+		}
+		return false;
     }
 }
