@@ -31,7 +31,7 @@ composer create-project sy-records/design-patterns:dev-master -vvv
     * [x] [优化抽象工厂](Factory/OptimizeAbstractFactory)
 * [x] [注册树模式](RegistryTree)
 * [x] [建造者模式](Builder)
-* [ ] 原型模式
+* [ ] [原型模式](Prototype)
 * [ ] 类适配器模式
 * [ ] 对象适配器模式
 * [ ] 桥接模式
