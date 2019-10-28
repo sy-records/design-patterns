@@ -10,7 +10,6 @@
   <img src="https://poser.pugx.org/sy-records/design-patterns/license">
   <a href="https://packagist.org/packages/sy-records/design-patterns"><img src="https://poser.pugx.org/sy-records/design-patterns/downloads"></a>
   <a href="https://github.com/sy-records/design-patterns/graphs/contributors"><img src="https://img.shields.io/github/contributors/sy-records/design-patterns"></a>
-  
 </p>
 
 ## 安装下载
