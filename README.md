@@ -31,8 +31,9 @@ composer create-project sy-records/design-patterns:dev-master -vvv
 * [x] [注册树模式](RegistryTree)
 * [x] [建造者模式](Builder)
 * [x] [原型模式](Prototype)
-* [ ] 类适配器模式
-* [ ] 对象适配器模式
+* [x] [适配器模式](Adapter)
+    * [x] [类适配器模式](Adapter/ClassAdapter)
+    * [x] [对象适配器模式](Adapter/ObjectAdapter)
 * [ ] 桥接模式
 * [ ] 装饰器模式
 * [ ] 组合模式
