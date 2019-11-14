@@ -34,7 +34,7 @@ composer create-project sy-records/design-patterns:dev-master -vvv
 * [x] [适配器模式](Adapter)
     * [x] [类适配器模式](Adapter/ClassAdapter)
     * [x] [对象适配器模式](Adapter/ObjectAdapter)
-* [ ] 桥接模式
+* [x] [桥接模式](Bridge)
 * [ ] 装饰器模式
 * [ ] 组合模式
 * [ ] 外观模式
