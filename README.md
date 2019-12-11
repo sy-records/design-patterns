@@ -40,7 +40,7 @@ composer create-project sy-records/design-patterns:dev-master -vvv
     * [x] [透明模式](Composite/Transparent)
     * [x] [安全模式](Composite/Safe)
 * [x] [外观模式](Facade)
-* [ ] 享元模式
+* [x] [享元模式](Flyweight)
 * [ ] 代理模式
 * [ ] 依赖注入模式
 * [ ] 模板方法模式
