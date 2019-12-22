@@ -42,7 +42,6 @@ composer create-project sy-records/design-patterns:dev-master -vvv
 * [x] [外观模式](Facade)
 * [x] [享元模式](Flyweight)
 * [x] [代理模式](Proxy)
-* [ ] 依赖注入模式
 * [ ] 模板方法模式
 * [ ] 命令模式
 * [ ] 状态模式
@@ -50,11 +49,3 @@ composer create-project sy-records/design-patterns:dev-master -vvv
 * [ ] 迭代器模式
 * [ ] 责任链模式
 * [ ] 观察者模式
-
-## 扩展
-
-* [x] POP
-* [x] OOP
-* [ ] AOP
-* [ ] CSP
-* [ ] SOA
