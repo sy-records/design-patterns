@@ -42,7 +42,7 @@ composer create-project sy-records/design-patterns:dev-master -vvv
 * [x] [外观模式](Facade)
 * [x] [享元模式](Flyweight)
 * [x] [代理模式](Proxy)
-* [ ] 模板方法模式
+* [x] [模板方法模式](TemplateMethod)
 * [ ] 命令模式
 * [ ] 状态模式
 * [ ] 策略模式
