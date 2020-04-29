@@ -42,7 +42,7 @@ composer create-project sy-records/design-patterns:dev-master
 * [x] [代理模式](Proxy)
 * [x] [模板方法模式](TemplateMethod)
 * [x] [命令模式](Command)
-* [ ] 状态模式
+* [x] [状态模式](State)
 * [ ] 策略模式
 * [ ] 迭代器模式
 * [ ] 责任链模式
