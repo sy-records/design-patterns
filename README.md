@@ -43,7 +43,7 @@ composer create-project sy-records/design-patterns:dev-master
 * [x] [模板方法模式](TemplateMethod)
 * [x] [命令模式](Command)
 * [x] [状态模式](State)
-* [ ] 策略模式
+* [x] [策略模式](Strategy)
 * [ ] 迭代器模式
 * [ ] 责任链模式
 * [ ] 观察者模式
